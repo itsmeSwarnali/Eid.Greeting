@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Happy Eid</title>
+	<link rel="icon" type="image/jpg" href="icon.jpg">
+
+
+	<!-- LayerSlider CSS -->
+	<link rel="stylesheet" href="assets/css/layerslider.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	
+	
+</head>
+<body>
+
+	<div class="slider">
+		<div class="container-fluid p-0">
+			<div class="row">
+				<div class="col-lg-12 col-sm-12 p-0">
+					<div id="slider" style="width:1920px;height:1080px;margin:0 auto;margin-bottom: 0px;">
+		
+						<div class="ls-slide" data-ls="kenburnszoom:in; kenburnsrotate:4; kenburnsscale:1.2;">
+							<img width="1920" height="1200" src="bm_bg1.jpg" class="ls-bg" alt="" />
+							<img width="1940" height="1200" src="bm_overlay.png" class="ls-l" alt="" style="top:50%; left:0%; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; mix-blend-mode:overlay;" data-ls="showinfo:1; durationin:1; easingin:easeInOutSine; fadein:false; loop:true; loopoffsetx:-3840; loopduration:5000; loopcount:-1;">
+							<p style="top:794px; left:900px; text-align:initial; font-weight:300; font-style:normal; text-decoration:none; font-family:Impact; color:#ffffff; font-size:25px; mix-blend-mode:overlay;" class="ls-l" data-ls="showinfo:1; delayin:2000; texttransitionin:true; texttypein:chars_rand; textshiftin:100; textdurationin:1000; texteasingin:easeOutBack; textrotatein:720|360|540; textscalexin:0; textscaleyin:0; texttransformoriginin:-100% -100%| -100% 200%| 200% -100%| 200% 200%| 0 0| 0 100%| 100% 0| 100% 100%; loop:true; loopduration:8000; loopstartat:transitioninstart + 2000; loopeasing:easeInOutSine; looprotate:-6; loopcount:1; parallax:true; parallaxlevel:4;">Eid is a day to cheer and to laugh with all your heart.<br> Wishing you a Happy Eid 2021</p>
+							<p style="top:159px; left:618px; text-align:initial; font-weight:300; font-style:normal; text-decoration:none; font-family:Impact; color:#ffffff; font-size:140px; mix-blend-mode:overlay;" class="ls-l" data-ls="showinfo:1; texttransitionin:true; texttypein:chars_rand; textshiftin:100; textdurationin:6000; texteasingin:easeOutBack; textrotatein:720|360|540; textscalexin:0; textscaleyin:0; texttransformoriginin:-100% -100%| -100% 200%| 200% -100%| 200% 200%| 0 0| 0 100%| 100% 0| 100% 100%; loop:true; loopduration:8000; loopstartat:transitioninstart + 3000; loopeasing:easeInOutSine; looprotate:-6; loopcount:1; parallax:true; parallaxlevel:4;">EID MOBARAK</p>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Slider HTML markup -->
+	
+	<!-- External libraries: jQuery & GreenSock -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/greensock.js"></script>
+
+	<!-- LayerSlider script files -->
+	<script src="assets/js/layerslider.transitions.js"></script>
+	<script src="assets/js/layerslider.kreaturamedia.jquery.js"></script>
+
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+
+
+	<!-- Initializing the slider -->
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+
+			
+			$('#slider').layerSlider({
+				sliderVersion: '6.2.2',
+				skin: 'v6',
+				showCircleTimer: false,
+				skinsPath: '../../layerslider/skins/'
+			});
+		});
+
+	</script>
+
+	
+
+</body>
+</html>
